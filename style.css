@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+}
+#A1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position:fixed;
+    width: 100%;
+    
+}
+a{
+    padding-right:10px;
+    font-size:large;
+    color:aqua;
+    text-decoration: none;
+
+}
+#div1{
+    background-image:url("background_image.webp");
+    height:800px;
+   padding-top:20px;
+   padding-right: 2%;
+}
+.headname{
+    display: flex;
+    color:white;
+    width:100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#div2{
+    background-image: url(back.jpeg);
+    padding: 2%;
+}
+#image{
+    display: flex;
+    justify-content: center;
+}
+#img{
+    width:250px;
+    height:300px;
+    border-radius: 50%;
+
+}
+#aboutpara{
+    display: flex;
+    justify-content: center;
+}
+#div3
+{
+    background-image: url(im.jpg);
+    padding-left: 2%;
+    padding: 2%;
+}
+#academic{
+    margin-top: 0px;
+}
+#collegeinformation{
+    margin-bottom: 0px;
+}
+#div4{
+    background-image: url(im.jpg); 
+    word-break: break-word;
+    margin:0px;
+    padding: 2%;
+    height: 200px; ;
+}
+h2{
+    text-transform:capitalize;
+    font-weight: bolder;
+    color:red;   
+    font-size: xx-large;
+}
+p{
+    color:white;
+    font-size:x-large;
+    padding-left: 10px;
+
+}
+h3{
+    font-size: x-large;
+    text-transform:capitalize;
+    font-weight: bolder;
+    color:rgb(9, 249, 21);
+}
+#contact{
+    font-size: xx-large;
+    margin: 0px;
+}
+#no,#mail{
+    margin-bottom: 0px;
+    font-size: x-large;
+}
+@media(max-width:1000px){
+    #A1{
+        background-image: url(background_image.webp);
+    }
+    .headname{
+        color: red;
+    }
+    div{
+        font-size:very smaller;
+        font-style: italic;
+        padding-left: 20px;
+        padding-top: 0px;
+    }
+    h1{
+        font-size:xx-large;
+
+    }
+    h3{
+        font-size: medium;
+    }
+    #img{
+        height: 200px;
+        width: 150px;
+        border-radius: 50%;
+    }
+    #div2{
+        height: 500px;
+    }
+    #div3{
+        height: 400px;;
+        padding-bottom: 0px;
+    }
+    #div4{
+        word-break: break-word;
+        background-color: bisque;
+    }
+    #lastpara{
+        word-break: break-word;
+        color:rgb(244, 170, 10);
+        align-items: left;
+    }
+    p{
+        font-size:medium;
+    }
+    #collegeinformation{
+        color:white;
+    }
+    #no,#mail{
+        color: white;
+        font-size: larger;
+    }
+}
